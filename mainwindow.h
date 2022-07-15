@@ -3,8 +3,12 @@
 
 #include <QMainWindow>
 #include "database.h"
-#include "secdialog.h"
 #include "join.h"
+#include "menu.h"
+#include "secdialog.h"
+#include "carsearch.h"
+#include "myinfo.h"
+#include "trip.h"
 
 using namespace  std;
 
@@ -23,8 +27,6 @@ public:
 
 private slots:
     void on_login_clicked();
-
-
     void on_join_clicked();
 
 private:
@@ -32,7 +34,6 @@ private:
     Database db;
     QSqlQuery sql;
     string query;
-    secDialog *Secdialog;
-    join *Join;
+    QString log_id;
 };
 #endif // MAINWINDOW_H

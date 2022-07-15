@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>400</width>
-    <height>431</height>
+    <width>640</width>
+    <height>480</height>
    </rect>
   </property>
   <property name="maximumSize">
@@ -22,15 +22,17 @@
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>130</x>
+     <x>260</x>
      <y>10</y>
-     <width>81</width>
+     <width>101</width>
      <height>61</height>
     </rect>
    </property>
    <property name="font">
     <font>
-     <pointsize>16</pointsize>
+     <pointsize>18</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
     </font>
    </property>
    <property name="text">
@@ -40,8 +42,8 @@
   <widget class="QLabel" name="labelID">
    <property name="geometry">
     <rect>
-     <x>60</x>
-     <y>100</y>
+     <x>150</x>
+     <y>120</y>
      <width>41</width>
      <height>17</height>
     </rect>
@@ -58,8 +60,8 @@
   <widget class="QLabel" name="labelPW">
    <property name="geometry">
     <rect>
-     <x>60</x>
-     <y>160</y>
+     <x>150</x>
+     <y>190</y>
      <width>67</width>
      <height>17</height>
     </rect>
@@ -76,8 +78,8 @@
   <widget class="QLabel" name="labelNAME">
    <property name="geometry">
     <rect>
-     <x>60</x>
-     <y>220</y>
+     <x>150</x>
+     <y>260</y>
      <width>67</width>
      <height>17</height>
     </rect>
@@ -94,8 +96,8 @@
   <widget class="QLabel" name="grade">
    <property name="geometry">
     <rect>
-     <x>30</x>
-     <y>290</y>
+     <x>70</x>
+     <y>340</y>
      <width>51</width>
      <height>17</height>
     </rect>
@@ -112,8 +114,8 @@
   <widget class="QPushButton" name="newjoin">
    <property name="geometry">
     <rect>
-     <x>140</x>
-     <y>340</y>
+     <x>270</x>
+     <y>410</y>
      <width>101</width>
      <height>41</height>
     </rect>
@@ -133,14 +135,17 @@
    </property>
    <property name="geometry">
     <rect>
-     <x>150</x>
-     <y>90</y>
+     <x>240</x>
+     <y>110</y>
      <width>171</width>
      <height>41</height>
     </rect>
    </property>
    <property name="mouseTracking">
     <bool>false</bool>
+   </property>
+   <property name="text">
+    <string/>
    </property>
    <property name="placeholderText">
     <string>ID</string>
@@ -152,8 +157,8 @@
    </property>
    <property name="geometry">
     <rect>
-     <x>150</x>
-     <y>150</y>
+     <x>240</x>
+     <y>180</y>
      <width>171</width>
      <height>41</height>
     </rect>
@@ -171,8 +176,8 @@
    </property>
    <property name="geometry">
     <rect>
-     <x>150</x>
-     <y>210</y>
+     <x>240</x>
+     <y>250</y>
      <width>171</width>
      <height>41</height>
     </rect>
@@ -184,13 +189,13 @@
     <string>NAME</string>
    </property>
   </widget>
-  <widget class="QWidget" name="">
+  <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
-     <x>100</x>
-     <y>280</y>
-     <width>271</width>
-     <height>31</height>
+     <x>130</x>
+     <y>330</y>
+     <width>431</width>
+     <height>41</height>
     </rect>
    </property>
    <layout class="QHBoxLayout" name="horizontalLayout">

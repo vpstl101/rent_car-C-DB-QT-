@@ -19,11 +19,8 @@ public:
 
 private slots:
     void on_newjoin_clicked();
-
     void on_c_click_clicked();
-
     void on_p_click_clicked();
-
     void on_v_click_clicked();
 
 private:
@@ -31,7 +28,6 @@ private:
     QSqlQuery sql;
     string query;
     string grade;
-
 };
 
 #endif // JOIN_H

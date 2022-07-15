@@ -16,21 +16,39 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    carsearch.cpp \
     join.cpp \
     main.cpp \
     mainwindow.cpp \
-    secdialog.cpp
+    menu.cpp \
+    myinfo.cpp \
+    reservasion.cpp \
+    reservasion_edit.cpp \
+    trip.cpp \
+    withdraw.cpp
 
 HEADERS += \
+    carsearch.h \
     database.h \
     join.h \
     mainwindow.h \
-    secdialog.h
+    menu.h \
+    myinfo.h \
+    reservasion.h \
+    reservasion_edit.h \
+    trip.h \
+    withdraw.h
 
 FORMS += \
+    carsearch.ui \
     join.ui \
     mainwindow.ui \
-    secdialog.ui
+    menu.ui \
+    myinfo.ui \
+    reservasion.ui \
+    reservasion_edit.ui \
+    trip.ui \
+    withdraw.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
